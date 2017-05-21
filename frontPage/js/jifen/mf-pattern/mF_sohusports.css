@@ -1,0 +1,35 @@
+/*=========mF_sohusports========*/
+.mF_sohusports_wrap {
+    padding: 5px 5px 0 5px  ;
+    float: left;
+    background:#fff;/*背景边框*/
+}
+.mF_sohusports .num{
+    position:absolute;
+    z-index:3;
+    bottom:8px;
+    right:329px;}/*按钮样式*/
+.mF_sohusports .num ul{
+    text-align: center;
+}
+.mF_sohusports .num li{
+    float:left;
+}
+.mF_sohusports .num li a{
+    color:#fff;
+    float:left;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    overflow:hidden;
+    text-align:center;
+    margin-right:4px;
+    cursor:pointer;
+    background:url(img/mF_sohusports/sh-btn.gif) left no-repeat;
+    text-decoration:none;
+    /*opacity: 0.5;*/
+}
+.mF_sohusports .num li.current a,
+.mF_sohusports .num li.hover a{
+    color:#fff;
+    background-position:right;}/*当前/悬停按钮样式*/

@@ -1,0 +1,14 @@
+.main{
+	width:1210px;
+	background:#BBEAFA;
+	margin:-5px auto;
+}
+.main ul{
+	text-align:center;
+}
+.main ul li{
+	margin-bottom:-4px;
+}
+.main ul li img{
+	width:960px;
+}

@@ -1,0 +1,44 @@
+.main{
+    width:800px;
+    margin: 0 auto;
+}
+.main h2 span{
+    font-size: 14px;
+    font-weight: normal;
+}
+.explain dl{
+    width:200px;
+    height:200px;
+    text-align: center;
+    line-height: 18px;
+}
+.explain dl dd{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.explain dl p{
+    /*text-align: center;*/
+    /*height:36px;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+}
+.explain,
+.explain dl{
+    float: left;
+}
+.explain dl{
+    margin-left: 60px;
+}
+.title{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.left_line,
+.right_line{
+    width:360px;
+    height:1px;
+    display: inline-block;
+    background: #ddd;
+    margin-bottom:  5px;
+}
